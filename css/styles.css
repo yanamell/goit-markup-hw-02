@@ -1,5 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
+    color: #434455;
+        background-color: #FFFFFF;
 }
 .link{
     text-decoration: none;
@@ -103,6 +105,7 @@ color: var(--navyblue, #2E2F42);
 }
 
 .work {}
+
 
 .work-title {
     color: var(--navyblue, #2E2F42);
