@@ -14,7 +14,7 @@ body{
     list-style: none;
 }
 .header-logo-noaccent{
-color: var(--navyblue, #2E2F42);
+color: var(--navyblue, #f4f4fd);
     font-size: 18px;
     font-family:"Raleway", sans-serif;
     font-weight: 800;
@@ -62,7 +62,7 @@ color: #404bbf;
 }
 
 .address-item{
-font-style: normal
+font-style: normal;
 }
 .hero{
     background-color: #2E2F42;
@@ -140,7 +140,9 @@ background-color: #404BBF;
 
 .work-menu {}
 
-.team {}
+.team {
+    background-color: #F4F4FD
+}
 
 .team-title {
     color: var(--navyblue, #2E2F42);
@@ -218,7 +220,7 @@ background-color: #404BBF;
         line-height: 1.5;
         letter-spacing: 0.04em;
         background-color: #F4F4FD;
-        cursor: pointer
+        cursor: pointer;
     
 }
 .text-button:hover{
