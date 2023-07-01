@@ -42,6 +42,10 @@ color: var(--navyblue, #2E2F42);
    color: #404bbf;
 }
 
+.header-menu-item:focus{
+color: #404bbf;
+}
+
 .header-menu-info{
     color: var(--slate, #434455);
         font-size: 16px;
@@ -55,6 +59,10 @@ color: var(--navyblue, #2E2F42);
 }
 .header-menu-info:focus {
     color: #404bbf;
+}
+
+.address-item{
+font-style: normal
 }
 .hero{
     background-color: #2E2F42;
@@ -70,14 +78,21 @@ color: var(--navyblue, #2E2F42);
 
 .hero-btn{
     color: var(--white, #FFF);
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
         background-color: #4D5AE5;
+        cursor: pointe;
 }
 
+.hero-btn:hover{
+background-color: #404BBF;
+}
+.hero-btn:focus {
+    background-color: #404BBF;
+}
 .adventages{}
 
 .adventages-list {}
@@ -88,12 +103,9 @@ color: var(--navyblue, #2E2F42);
     border: 0;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    height: 1px;
     margin: -1px;
     overflow: hidden;
     padding: 0;
-    position: absolute;
-    width: 1px;
     white-space: nowrap;
     /* 1 */
 }
@@ -122,7 +134,7 @@ color: var(--navyblue, #2E2F42);
         text-align: center;
         font-size: 36px;
         font-weight: 700;
-        line-height: 1.5;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         background-color: #F4F4FD;
@@ -140,15 +152,18 @@ color: var(--navyblue, #2E2F42);
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        background-color: #F4F4FD
 }
 
 .team-list {}
 
 .list {}
 
-.team-list-item {}
+.team-list-item {
+    background-color: #FFFFFF
+}
 
-.title-h3 {
+.title-h {
     color: var(--navyblue, #2E2F42);
         text-align: center;
         font-size: 20px;
