@@ -15,6 +15,7 @@ body{
 }
 .header-logo-noaccent{
 color: var(--navyblue, #f4f4fd);
+--span-color: #2e2f42;
     font-size: 18px;
     font-family:"Raleway", sans-serif;
     font-weight: 800;
@@ -61,7 +62,7 @@ color: #404bbf;
     color: #404bbf;
 }
 
-.address-item{
+.add-item {
 font-style: normal;
 }
 .hero{
@@ -84,7 +85,7 @@ font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.04em;
         background-color: #4D5AE5;
-        cursor: pointe;
+        cursor: pointer;
 }
 
 .hero-btn:hover{
