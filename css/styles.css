@@ -1,6 +1,7 @@
 :root {
     --accent-color: #FFFFFF;
     --main-text-color: #434455;
+    --span-color: #2e2f42;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -14,8 +15,8 @@ body{
     list-style: none;
 }
 .header-logo-noaccent{
-color: #f4f4fd;
---span-color: #2e2f42;
+color: #f4f4fd; 
+color: var(--span-color)
     font-size: 18px;
     font-family:"Raleway", sans-serif;
     font-weight: 800;
