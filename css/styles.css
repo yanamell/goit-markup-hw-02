@@ -1,6 +1,7 @@
 :root {
     --accent-color: #FFFFFF;
     --main-text-color: #434455;
+    --span-color: #2e2f42;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -15,7 +16,6 @@ body{
 }
 .header-logo-noaccent{
 color: var(--navyblue, #f4f4fd);
---span-color: #2e2f42;
     font-size: 18px;
     font-family:"Raleway", sans-serif;
     font-weight: 800;
@@ -62,8 +62,8 @@ color: #404bbf;
     color: #404bbf;
 }
 
-.add-item {
-font-style: normal;
+.address-menu-item {
+   font-style: normal;
 }
 .hero{
     background-color: #2E2F42;
