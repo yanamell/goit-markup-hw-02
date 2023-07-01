@@ -15,7 +15,8 @@ body{
     list-style: none;
 }
 .header-logo-noaccent {
-    color: var(--span-color) #f4f4fd;
+    color: var(--span-color);
+    background-color: #f4f4fd;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
