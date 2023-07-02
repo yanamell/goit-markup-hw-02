@@ -15,14 +15,17 @@ body{
     list-style: none;
 }
 .header-logo-noaccent {
-    color: #2e2f42;
-        color: var(--span-color);
+    color: #f4f4fd;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.logo-accent-white{
+    color:var(--span-color)
 }
 
 .header-logo-accent{
