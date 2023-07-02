@@ -15,8 +15,8 @@ body{
     list-style: none;
 }
 .header-logo-noaccent {
-    color: var(--span-color);
-    background-color: #f4f4fd;
+    color: #2e2f42;
+        color: var(--span-color);
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -24,6 +24,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
 .header-logo-accent{
     color: var(--iris, #4D5AE5);
         font-size: 18px;
