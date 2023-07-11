@@ -361,13 +361,16 @@ background-color: #404BBF;
         padding-bottom: 100px;
 }
 
+.cont-port {
+    padding: 96px 0 120px 0;
+}
+
 .btn-item {
 display: flex;
 align-items: flex-start;
 padding-left: 327px;
 width: calc((100%-4*24)/5);
 gap: 24px;
-padding-top: 96px;
 padding-bottom: 72px;
 
 }
@@ -394,22 +397,33 @@ width: 116px;
 .text-button:hover{
     background-color: #404BBF;
     color: #FFF;
-        text-align: center;
+    text-align: center;
+    border: 1px solid transparent;
 }
 .text-button:focus{
     background-color: #404BBF;
     color:  #FFF;
-        text-align: center;
+    text-align: center;
+    border: 1px solid transparent;
 }
 .img-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    width: calc((100% - 8*24) / 9);
-    padding-bottom: 120px;
+
 }
 
 .img-box {
-        border: 1px solid var(--cornflower, #E7E9FC);
-            background: var(--white, #FFF);
+    width: calc((100% - 48px) / 3);
+    justify-content: center;
+    margin-bottom: 72px;
+    row-gap: 48px;
+}
+
+.cont-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
+    
 }
