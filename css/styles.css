@@ -260,7 +260,8 @@ background-color: #404BBF;
 }
 
 .team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -272,17 +273,16 @@ background-color: #404BBF;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         background-color: #F4F4FD;
-        padding-top: 120px;
-        padding-bottom: 72px;
         max-width: 164px;
         margin: 0 auto;
+        margin-bottom: 72px;
 
 }
 
 .team-list {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .list {}
@@ -292,15 +292,19 @@ background-color: #404BBF;
     width: calc((100%-3*24) / 4);
 }
 
+.team-name {
+    padding: 32px 16px;
+
+}
 .title-h {
         color: #2E2F42;
+        text-align: center;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        padding-top: 32px;
-        padding-bottom: 8px;
-        padding-left: 16px;
+        margin-bottom: 8px;
+
 }
 
 .text-p {
@@ -308,8 +312,8 @@ background-color: #404BBF;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding-bottom: 32px;
-        padding-left: 16px;
+        text-align: center;
+
 }
 
 .container-footer {
