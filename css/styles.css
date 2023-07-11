@@ -57,6 +57,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-accent-white{
@@ -77,6 +78,7 @@ img {
     display: flex;
     align-items: center;
     gap: 332px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-navigation {
@@ -95,6 +97,7 @@ img {
     display: flex;
     gap: 40px;
 }
+
 .header-menu-item{
     color: #2E2F42;
         font-size: 16px;
@@ -116,6 +119,7 @@ color: #404bbf;
         font-family: Roboto;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 
 .header-menu-info:hover {
